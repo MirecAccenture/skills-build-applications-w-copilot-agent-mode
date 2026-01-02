@@ -150,3 +150,9 @@ REST_FRAMEWORK = {
     ),
 }
 
+# django-allauth settings for easier testing
+ACCOUNT_AUTHENTICATION_METHOD = 'username'
+ACCOUNT_EMAIL_VERIFICATION = 'none'
+ACCOUNT_EMAIL_REQUIRED = True
+
+
